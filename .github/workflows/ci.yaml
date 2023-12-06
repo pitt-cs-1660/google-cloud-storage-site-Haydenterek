@@ -23,7 +23,7 @@ jobs:
 
       # build you static site here if needed
       - id: 'build'
-        name: 'Build'
+        name: Build
         run: hugo --minify
 
 
