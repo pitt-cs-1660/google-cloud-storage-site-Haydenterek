@@ -24,7 +24,7 @@ jobs:
       # build you static site here if needed
       - id: 'build'
         name: 'Build'
-        run: hugo --gc --minify
+        run: hugo --minify
 
 
       # configure gcloud `setup-gcloud` automatically
